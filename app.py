@@ -185,3 +185,7 @@ def delete_feedback(feedback_id):
 
     except KeyError:
         return redirect('/login')
+
+
+if __name__ == '__main__':
+    app.run()
